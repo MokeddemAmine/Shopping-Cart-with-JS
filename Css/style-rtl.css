@@ -1,0 +1,24 @@
+[dir=rtl] .products{
+    float:right;
+}
+[dir=rtl] #filter{
+    float:left;
+}
+[dir=rtl] .product-item-actions .favorite{
+    margin:0 auto 0 0;
+}
+[dir=rtl] .header-content #user_info li .carts-products{
+    left:0;
+}
+[dir=rtl] .profile .info{
+    right:50px;
+}
+[dir=rtl] .profile .info button{
+    margin-right:80px;
+}
+[dir=rtl] .edit_profile .info{
+    right:350px;
+}
+[dir=rtl] .create-product-icon{
+    right:1800px;
+}

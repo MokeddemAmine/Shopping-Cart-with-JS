@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart | Home Page</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-rtl.css">
+    <link rel="stylesheet" href="css/all.min.css"/>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="brand">Shopping Cart</a>
+                <nav>
+                    <ul id="links">
+                        <li id="language">
+                            <a href="#" id="language_check">EN</a>
+                            <ul id="language_setting">
+                                <li><a href="#" id="language_setting_english">EN</a></li>
+                                <li><a href="#" id="language_setting_arabic">AR</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="login.html">Sign In</a></li>
+                        <li><a href="register.html">Sign Up</a></li>
+                    </ul>
+                    <ul id="user_info">
+                        <li id="language">
+                            <a href="#" id="language_check">EN</a>
+                            <ul id="language_setting">
+                                <li><a href="#" id="language_setting_english">EN</a></li>
+                                <li><a href="#" id="language_setting_arabic">AR</a></li>
+                            </ul>
+                        </li>
+                        <li id="user_info_menu">
+                            <img src="images/user.png" alt="user image" id="image_user"/>
+                            <ul id="user_info_sous_menu">
+                                <li>
+                                    <a href="profile.html" id="user" style="text-transform:uppercase"></a>
+                                </li>
+                                <li><a href="myProduct.html">MyProduct</a></li>
+                                <li id="favorite"><a href="favorite.html">My Favorite</a></li>
+                                <li><a href="" id="logout">Logout</a></li>
+                            </ul>
+                        </li>
+                        <li class="shopping-cart">
+                            <i class="fa-solid fa-shopping-cart"></i>
+                            <span class="badge"></span>
+
+                            <div class="carts-products">
+                                <div></div>
+                                <a href="cartproducts.html">view all products</a>
+                            </div>
+                        </li>
+                    </ul>
+                </nav>
+
+            </div>
+        </div>
+    </header>
+    
+    <section class="edit_profile">
+        <div class="container">
+            <form id="edit_profile_info">
+                <img alt="user image" id="user_image"/>
+                <div class="info">
+                    <input type="file" id="user_image_file"/>
+                    <input type="text" id="username" />
+                    <input type="text" id="email"/>
+                    <input type="submit" value="Update">
+                </div>
+            </form>
+        </div>
+        <a class="create-product-icon"><i class="fa-solid fa-plus"></i></a>
+    </section>
+
+    <script src="JS/user.js"></script>
+    <script src="JS/addToCart.js"></script>
+    <script src="JS/editProfile.js"></script>
+</body>
+</html>
